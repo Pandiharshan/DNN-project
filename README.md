@@ -1,36 +1,52 @@
-# 🕵️‍♂️ FakeReviewNet
-
-> **FakeReviewNet** is a Deep Neural Network (DNN) powered system that detects whether a given online product review is **genuine** or **fake**, using only text-based features.  
-> A one-day mini deep learning project — built for academic submission, demonstration, and open-source contribution.
+# 🧠 FakeReviewNet  
+### “Every Review Has a Story — Let’s Find the Truth Behind It.”
 
 ---
 
-## 🌍 Live Demo
-🔗 **Website / Public Interface:** [https://fakereviewnet.vercel.app/](https://fakereviewnet.vercel.app/)  
-*(Coming soon — feel free to fork this repo and deploy your own!)*  
+<p align="center">
+  <img src="https://img.shields.io/badge/Deep%20Learning-TensorFlow-orange?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Language-Python-blue?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Category-NLP%20%7C%20DNN-brightgreen?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge">
+</p>
 
 ---
 
-## 🧠 Overview
-Fake reviews mislead millions of online customers.  
-This project introduces a **DNN-based text classifier** that analyzes review patterns, tone, and structure to predict the *authenticity* of a review.  
+## 🌍 Live Demo  
+🔗 **Website:** [https://fakereviewnet.vercel.app/](https://fakereviewnet.vercel.app/)  
+*(Public web interface coming soon — deploy your own with one click!)*  
 
-Unlike regular sentiment analysis (positive/negative), FakeReviewNet classifies reviews as:
-- ✅ **Genuine Review**
-- 🚫 **Fake Review**
+---
+
+## 🧩 Overview  
+Online reviews drive decisions — but **many are fake**.  
+**FakeReviewNet** is a deep learning model that uses **Natural Language Processing (NLP)** and **Dense Neural Networks (DNNs)** to identify deceptive reviews.  
+
+It reads a review’s language, tone, and structure — and predicts whether it’s **✅ Genuine** or **🚫 Fake**.  
+This is not your typical sentiment analysis; it’s **truth detection through language intelligence**.
+
+---
+
+## 🚀 Features
+✨ Detects fake vs genuine product reviews  
+🧠 Built with Deep Neural Networks (DNNs)  
+📊 Uses text embedding and intelligent feature extraction  
+⚡ Runs locally or deployable to Streamlit/Vercel  
+📈 Achieves high accuracy with lightweight training  
 
 ---
 
 ## ⚙️ Tech Stack
+
 | Category | Technology |
 |-----------|-------------|
 | Language | Python 3 |
 | Framework | TensorFlow / Keras |
-| Libraries | NumPy, Pandas, Scikit-learn, Matplotlib |
+| ML Tools | Scikit-learn, NumPy, Pandas |
+| Visualization | Matplotlib, Seaborn |
 | Dataset | [Fake Reviews Dataset (Kaggle)](https://www.kaggle.com/datasets/lievgarcia/fake-reviews-dataset) |
-| Environment | Jupyter Notebook / VS Code |
 | Deployment | Streamlit / Flask (optional) |
 
 ---
 
-## 🧩 Project Structure
+## 🧱 Folder Structure
